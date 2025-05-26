@@ -1,4 +1,8 @@
 # LINE Messaging API SDK for Ruby
+todo: もっとスクリプトを簡素にする
+todo: コメントの型にline::bot::v2を足す
+todo: rbsもコピーしやすくする　単にbodyがなければ良いのでそういったフラグがあれば良い
+todo: client nameをなんとかする
 
 [![Gem-version](https://img.shields.io/gem/v/line-bot-api.svg)](https://rubygems.org/gems/line-bot-api)
 
