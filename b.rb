@@ -189,10 +189,10 @@ def generate_aggregator_code(clients_info)
               http_options_for_blob: {},
               http_options_for_module_attach: {}
             )
-    #{generate_initializations(clients_info).indent(14)}
+    #{generate_initializations(clients_info).indent(10)}
             end
 
-    #{generate_delegation_methods(clients_info).indent(12)}
+    #{generate_delegation_methods(clients_info).indent(0)}
           end
         end
       end
